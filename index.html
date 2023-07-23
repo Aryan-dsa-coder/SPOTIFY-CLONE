@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="spotify-logo-png-7078.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h1>Liked Songs</h1>
+            <div class="songItemcontainer">
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Dilon Ki Doriyan</span>
+                    <span class="songlistplay"><span class="timestamp">3:00 <i id="0" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Abhi-Abhi</span>
+                    <span class="songlistplay"><span class="timestamp">5:42 <i id="1" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Asal Mein</span>
+                    <span class="songlistplay"><span class="timestamp">3:44 <i id="2" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Dil Mein Ho Tum</span>
+                    <span class="songlistplay"><span class="timestamp">3:41 <i id="3" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Guzarish</span>
+                    <span class="songlistplay"><span class="timestamp">5:29 <i id="4" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Jiyein Kyun</span>
+                    <span class="songlistplay"><span class="timestamp">4:26 <i id="5" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Lagdi Lahore Di</span>
+                    <span class="songlistplay"><span class="timestamp">3:35 <i id="6" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Tere Vaaste</span>
+                    <span class="songlistplay"><span class="timestamp">3:09 <i id="7" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Tu Har Lamha</span>
+                    <span class="songlistplay"><span class="timestamp">4:32 <i id="8" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Tumhe Kitna Pyaar Karte</span>
+                    <span class="songlistplay"><span class="timestamp">5:05 <i id="9" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="MyprogressBar" min="0" value = "0" max="100">
+        <div class="icon">
+            <i class="fa-solid fa-3x fa-backward-step" id="previous"></i>
+            <i class="fa-solid fa-3x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-forward-step" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="Nt6v.gif" width="42px" alt="" id="gif"> <span id="masterSongName">Dilon Ki Doriyan</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/8ca798a1a1.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
